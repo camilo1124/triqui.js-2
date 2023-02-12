@@ -15,7 +15,7 @@ let jugadorActual = ambiente;
 
 
 function setup(){
-	createCanvas(400,400);
+    createCanvas(400,400);
     ancho = width/3
     altura = height/3
     mejorJugada();	
