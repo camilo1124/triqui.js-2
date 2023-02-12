@@ -109,10 +109,10 @@ function draw(){
       noLoop();
       let resultP = createP('');
       resultP.style('font-size', '32pt');
-      if (resultado == 'tie') {
-        resultP.html("Tie!")
+      if (resultado == 'empate') {
+        resultP.html("empate!")
       } else {
-        resultP.html(`${resultado} wins!`);
+        resultP.html(`${resultado} gana!`);
       }
   }
   
