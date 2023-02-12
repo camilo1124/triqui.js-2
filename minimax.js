@@ -52,7 +52,7 @@ function minimax(tablero,profundidad,maximizando){
 		for (let i = 0; i<3;i++){
 			for (let j = 0;j<3;j++){
 				if (tablero[i][j] == ''){
-					tablero[i][j] = ai;
+					tablero[i][j] = ambiente;
 					let puntaje = minimax(tablero,profundidad +1,true);
 					tablero[i][j] ='';
 					mejorPuntaje = min(puntaje,mejorPuntaje)
